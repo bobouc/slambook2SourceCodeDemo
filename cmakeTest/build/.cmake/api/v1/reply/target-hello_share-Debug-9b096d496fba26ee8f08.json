@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "liblibhello_share.dylib"
+			"path" : "libhello_share.dylib"
 		}
 	],
 	"backtrace" : 1,
@@ -41,7 +41,7 @@
 			"defines" : 
 			[
 				{
-					"define" : "libhello_share_EXPORTS"
+					"define" : "hello_share_EXPORTS"
 				}
 			],
 			"language" : "CXX",
@@ -51,7 +51,7 @@
 			]
 		}
 	],
-	"id" : "libhello_share::@6890427a1f51a3e7e1df",
+	"id" : "hello_share::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -63,8 +63,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "libhello_share",
-	"nameOnDisk" : "liblibhello_share.dylib",
+	"name" : "hello_share",
+	"nameOnDisk" : "libhello_share.dylib",
 	"paths" : 
 	{
 		"build" : ".",
@@ -85,7 +85,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "useLibhello.cpp",
+			"path" : "libhello.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

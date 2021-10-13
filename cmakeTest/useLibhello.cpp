@@ -1,7 +1,7 @@
-#include "libhello.h"
+#include "libHelloSLAM.h"
 
-int main ( int argc, char **argv ){
-    printSlam();
+int main( int argc, char **argv ){
+	printHello();
 
-    return 0;
+	return 0;
 }

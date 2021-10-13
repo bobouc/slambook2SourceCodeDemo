@@ -42,9 +42,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "libhello_share::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-libhello_share-Debug-632afd60a692fdf092da.json",
-					"name" : "libhello_share",
+					"id" : "hello_share::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_share-Debug-9b096d496fba26ee8f08.json",
+					"name" : "hello_share",
 					"projectIndex" : 0
 				},
 				{
@@ -57,7 +57,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "uselibhello::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uselibhello-Debug-a0e1968da4fd284d365b.json",
+					"jsonFile" : "target-uselibhello-Debug-b0ca5c67f6391ac85e3d.json",
 					"name" : "uselibhello",
 					"projectIndex" : 0
 				}
