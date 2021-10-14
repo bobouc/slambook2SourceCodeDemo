@@ -1,0 +1,7 @@
+# ninja log v5
+1	71	1634221298	CMakeFiles/uselibhello.dir/useLibhello.cpp.o	ba459e48e27c2324
+0	551	1634221299	CMakeFiles/noneUseLib.dir/main.cpp.o	795bb4cc817ff001
+1	558	1634221299	CMakeFiles/hello_share.dir/libhello.cpp.o	c8c727de810d4f48
+559	729	1634221299	libhello_share.so	af7ff15fa38c4330
+551	740	1634221299	noneUseLib	72f977715ec03c29
+729	814	1634221299	uselibhello	f11fc65a16dcf20f
