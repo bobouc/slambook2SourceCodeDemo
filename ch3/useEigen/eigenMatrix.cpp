@@ -78,7 +78,7 @@ int main(int argc, char **argv) {
 
   // 特征值
   // 实对称矩阵可以保证对角化成功
-  SelfAdjointEigenSolver<Matrix3d> eigen_solver(matrix_33.transpose() * matrix_33);
+  SelfAdjointEigenSolver<Matrix3d> eigen_solver(matrix_33.transpose()); //make a self adjoint eigen matrix
   cout << "Eigen values = \n" << eigen_solver.eigenvalues() << endl;
   cout << "Eigen vectors = \n" << eigen_solver.eigenvectors() << endl;
 
