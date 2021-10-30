@@ -17,7 +17,17 @@ int main(int argc, char **argv)
     //define the coordinate of q1, q2 of itselves.
     Vector3d t1(0.3, 0.1, 0.1), t2(-0.1, 0.5, 0.3);
     Vector3d p1(0.5, 0, 0.2);
-
+    Vector3d p2;
+    // Quaterniond  Solution
+    // pw means the coordinate in world coordinate system.
+    // p1 = q1*pw + t1;
+    // p2 = q2*pw + t2;
+    // so p2 = q2 * q1^{-1} *(p1 - t1)  + t2 
+    // Mention: in Eigen, Quaterniond times is q*P, while q*P*q^{-1} in math.
+    p2 = q2 * q1.inverse() * (p1 - t1 ) + t2;
+    cout << p2.transpose()<<endl;
+    
+    //Rotation Matirx Solution
     //Euler transformation matrix initialize.
     Isometry3d T1w = Isometry3d::Identity(), T2w = Isometry3d::Identity();
     T1w.rotate(q1);
